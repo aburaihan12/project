@@ -585,7 +585,7 @@ text-decoration: none;
     font-weight: 400;
 }
 .futter-section .futter-menu{
-    float: inline-end;
+    float: right;
 }
 .futter-section .futter-menu ul{}
 .futter-section .futter-menu ul li{}
