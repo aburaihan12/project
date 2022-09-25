@@ -22,40 +22,55 @@
 <body>
 
 
-<!-- Header section -->
 
-<div class="header_section" id="bgChange">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2">
-                <div class="logo">
-                    <h2>mediacom</h2>
+    <div id="pre_loader"></div>
+
+    <!-- header section -->
+
+    <div class="header_section" id="bgChange">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2">
+                    <div class="logo">
+                        <h2 class=" d-none">mediacom</h2>
+                        <img class="remove" src="./assets/img/631cb79905658.png" alt="">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="header_menu">
-                    <ul>
-                        <li><a target="_blank" href="./homepage.html">Home</a></li>
-                        <li><a target="_blank" href="./aboutpage.html">About</a></li>
-                        <li><a target="_blank" href="./workpage.html">Our work</a></li>
-                        <li><a target="_blank" href="./peoplepage.html">Our people</a></li>
-                        <li><a target="_blank" href="./newspage.html">News & views</a></li>
-                    </ul>
+                <div class="col-md-6">
+                    <div class="header_menu">
+                        <ul>
+                            <li><a href="./homepage.html">Home</a></li>
+                            <li><a target="_blank" href="./aboutpage.html">About</a></li>
+                            <li><a target="_blank" href="./ourwok.html">Our work</a></li>
+                            <li><a target="_blank" href="./peoplepage.html">Our people</a></li>
+                            <li><a target="_blank" href="./newspage.html">News & views</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="header_menu">
-                    <ul>
-                        <li><a target="_blank" href="./contactpage.html">Contact Us</a></li>
-                        <li><a target="_blank" href="./careerpage.html">Career </a></li>
-                        <li><a target="_blank" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                        <li><a target="_blank" href="./galleypage.html">Gallery </a></li>
-                    </ul>
+                <div class="col-md-4">
+                    <div class="header_menu">
+                        <ul>
+                            <li><a target="_blank" href="./contactpage.html">Contact Us</a></li>
+                            <li><a target="_blank" href="./careerpage.html">Career </a></li>
+                            <li><a target="_blank" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            <li><a target="_blank" href="./contactpage.html">GLOBAL</a>
+                                <select>
+                                    <option selected>select</option>
+                                    <option value="BD">BD</option>
+                                    <option value="saab">UAE</option>
+                                  </select>
+                                  
+                            </li>
+                        </ul>
+
+                        
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
     <!-- bannar section -->
@@ -76,7 +91,7 @@
             <div class="about-top-text">
                 <h4>We are a global media agency with a difference</h4>
             </div>
-            <div class="row">
+            <div class="row g-0">
                 <div class="col-md-6">
                     <div class="about-item-img">
                         <img src="./assets/img/ABOUT-US-APPROACH_AdobeStock_223697853.jpeg" alt="">
@@ -96,7 +111,7 @@
 
     <div class="about-section">
         <div class="container">
-            <div class="row">
+            <div class="row g-0">
                 <div class="col-md-6">
                     <div class="about2-item-contant">
                         <h4>Partnerships</h4>
@@ -116,7 +131,7 @@
 
     <div class="about-section">
         <div class="container">
-            <div class="row">
+            <div class="row g-0">
                 <div class="col-md-6">
                     <div class="about-item-img">
                         <img src="./assets/img/ABOUT-US_AdobeStock_377417873-high.jpg" alt="">
@@ -136,7 +151,7 @@
 
     <div class="about-section">
         <div class="container">
-            <div class="row">
+            <div class="row g-0">
                 <div class="col-md-6">
                     <div class="about2-item-contant">
                         <h4>TECHNOLOGY</h4>
@@ -184,7 +199,7 @@
         <div class="howdo-text">
             <h2>How we do it</h2>
         </div>
-        <div class="row">
+        <div class="row g-0">
 
             <div class="col-md-3">
                <div class="howdo-item">
@@ -235,17 +250,82 @@
 </div>
 
 
-<!-- about people section -->
+
+<!-- about people section Modal -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade popup-section" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">
+            Josh Krichefski  Global COO & EMEA CEO </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="popup-img">
+                        <img src="./assets/img/Person_nick-lawson.jpg" alt="">
+                    </div>
+                    <div class="popup-icon">
+                        <div class="social-item">
+                            <h2>Follow</h2>
+                            <div class="futter-icon">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+    
+                    <div class="popup-contant modal-dialog" data-bs-spy="scroll">
+                        
+                        <p >Nadine Thomson is the Global Chief Technology Officer and Executive Lead for Blink. Blink is the successful global MediaCom consultancy delivering specialist services to clients across ecommerce, advertising and marketing technology, media innovation and in-housing. We use our deep specialist knowledge and a network of our media consultants across the globe to deliver transformational solutions for clients.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <!-- about people section -->
 
 <div class="about-people-section">
     <div class="container">
-        <div class="about-people-text">
-            <h2>Our Global ExCo</h2>
+        <div class="col-md-3">
+            <div class="about-people-text">
+                <h2>Our Global ExCo</h2>
+                <div class="border-bottom"></div>
+            </div>
         </div>
+       
+
+      
         <div class="row g-0">
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                     <div class="about-people-image">
                         <img src="./assets/img/Person_nick-lawson.jpg" alt="">
                     </div>
@@ -258,7 +338,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/JoshK_Final.jpg" alt="">
                     </div>
@@ -271,7 +351,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/SASHA.jpg" alt="">
                     </div>
@@ -284,7 +364,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Maria_Gunther.jpg" alt="">
                     </div>
@@ -297,7 +377,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Rupert-square.jpg" alt="">
                     </div>
@@ -310,7 +390,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Claire-Camara.jpg" alt="">
                     </div>
@@ -323,7 +403,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Charlotte_Frijns_960x540_USE_THIS_ONE.jpg" alt="">
                     </div>
@@ -336,7 +416,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Matthew_Mee_2019-002.jpg" alt="">
                     </div>
@@ -354,15 +434,19 @@
 
 <!-- about people section -2 -->
 
+
 <div class="about-people-section">
     <div class="container">
-        <div class="about-people-text">
-            <h2>Our Global Leaders</h2>
+        <div class="col-md-3">
+            <div class="about-people-text">
+                <h2>Our Global Leaders</h2>
+                <div class="border-bottom"></div>
+            </div>
         </div>
         <div class="row g-0">
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Stef-Calcraft.jpg" alt="">
                     </div>
@@ -375,7 +459,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Paddy_Flynn.jpg" alt="">
                     </div>
@@ -388,7 +472,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Fliss_Long.jpg" alt="">
                     </div>
@@ -401,7 +485,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Nick_Slaymaker.jpg" alt="">
                     </div>
@@ -414,7 +498,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Vincent2.jpg" alt="">
                     </div>
@@ -427,7 +511,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Nadine-Thomson-1.jpg" alt="">
                     </div>
@@ -440,7 +524,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Michelle_Holmes.jpg" alt="">
                     </div>
@@ -453,7 +537,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Costin_Headshot.jpg" alt="">
                     </div>
@@ -466,7 +550,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Frances2.jpg" alt="">
                     </div>
@@ -479,7 +563,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Ian_Rotherham_New.jpg" alt="">
                     </div>
@@ -492,7 +576,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Simon.S.jpg" alt="">
                     </div>
@@ -505,7 +589,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Justin2.jpg" alt="">
                     </div>
@@ -518,11 +602,11 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/kristin_0024_square.jpg" alt="">
                     </div>
-                    <div class="about-people-contant">
+                    <div class="about-people-contant" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <h2>Kristin Gower</h2>
                         <p>Global Client President</p>
                         <h6>See bio</h6>
@@ -531,7 +615,7 @@
             </div>
 
             <div class="col-md-3">
-                <div class="about-people-item">
+                <div class="about-people-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <div class="about-people-image">
                         <img src="./assets/img/Paul-Greenhalgh.jpg" alt="">
                     </div>
@@ -547,72 +631,94 @@
     </div>
 </div> 
 
+<!-- futter top section -->
 
-
-
-<!-- futter section -->
-
-<div class="futter-section">
+<div class="futter-top-section">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="futter-text">
-                    <h3>Lorem ipsum dolor sit amet adipisicing elit. Repellendus, facere!</h3>
+                <div class="futter-top-text">
+                    <h2>Want to work with smart, creative and enthusiastic people? So do we.</h2>
+                    
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="futter-menu">
-                    <ul>
-                        <li><a target="_blank" href="./aboutpage.html">About us</a></li>
-                        <li><a target="_blank" href="./workpage.html">Our work</a></li>
-                        <li><a target="_blank" href="./peoplepage.html">Our people</a></li>
-                        <li><a target="_blank" href="./newspage.html">News & views</a></li> <br>                       
-                        <li><a target="_blank" href="#">Join Us</a></li>                        
-                        <li><a target="_blank" href="./contactpage.html">Contact Us</a></li>
-                    </ul>
+            <div class="col-md-4 futter-item">
+                <div class="futter-left-contant">
+                    <a target="_blank" href="./contactpage.html">Sign up<i class="fa-solid fa-arrow-right"></i></a> 
                 </div>
             </div>
-        </div>
-
-        <div class="futter-bottom-item">
-
-           <div class="futter-contant">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="futter-text">
-                        <p>&copy; Copyright 2022 MediaCom</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="list-item">
-                        <ul>
-                            <li><a href="#">Terms of Use </a></li>
-                            <li><a href="#">Privacy Policy </a></li>
-                            <li><a href="#">Modern Slavery Statement </a></li>
-                            <li><a href="#">Local Website Directory </a></li>
-                            <li><a href="#">Sitemap </a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="futter-icon">
-                        <ul>
-                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-           </div>
-
-
         </div>
     </div>
 </div>
+    
+
+
+
+    <!-- futter section -->
+
+    <div class="futter-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="futter-text">
+                        <h3>Lorem ipsum dolor sit amet adipisicing elit. Repellendus, facere!</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="futter-menu">
+                        <ul>
+                            <li><a target="_blank" href="./aboutpage.html">About us</a></li>
+                            <li><a target="_blank" href="./ourwork.html">Our work</a></li>
+                            <li><a target="_blank" href="./peoplepage.html">Our people</a></li>
+                            <li><a target="_blank" href="./servicepage.html">our service</a></li>
+                            <li><a target="_blank" href="./newspage.html">News & views</a></li> 
+                            <li><a target="_blank" href="./galleypage.html">Gallery </a></li><br>                       
+                            <li><a target="_blank" href="#">Join Us</a></li>                        
+                            <li><a target="_blank" href="./contactpage.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="futter-bottom-item">
+    
+               <div class="futter-contant">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="futter-text">
+                            <p>&copy; Copyright 2022 MediaCom</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="list-item">
+                            <ul>
+                                <li><a href="#">Terms of Use </a></li>
+                                <li><a href="#">Privacy Policy </a></li>
+                                <li><a href="#">Modern Slavery Statement </a></li>
+                                <li><a href="#">Local Website Directory </a></li>
+                                <li><a href="#">Sitemap </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="futter-icon">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+               </div>
+    
+    
+            </div>
+        </div>
+    </div>
 
 
 
