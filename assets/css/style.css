@@ -24,7 +24,7 @@ a{
 text-decoration: none;
 }
 
-html body{
+body{
     overflow-x: hidden !important;
 }
 .clear-fix::after {
