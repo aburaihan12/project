@@ -39,6 +39,8 @@ body{
     
   }
 
+
+
   /* root class */
   .border_bottom {
     width: 165px;
@@ -58,9 +60,12 @@ body{
 .bgcolor{
     background-color: var(--primary-color);
 }
+.icon{
+    display: none;
+}
 
-.header_section .logo img{
-    
+.header_section .logo h2{
+    display: none;
 }
 
 /* preloder */

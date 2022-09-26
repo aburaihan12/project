@@ -3,7 +3,7 @@ function changeBg(){
     var bgChange = document.getElementById('bgChange');
     var scrollvalue = window.scrollY;
     
-    if(scrollvalue < 150){
+    if(scrollvalue < 50){
         bgChange.classList.remove('bgcolor');
         
     }else{

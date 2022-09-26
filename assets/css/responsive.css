@@ -22,18 +22,88 @@
 @media all and (max-width:1262px){
     /* header section */
     .header_section .header_menu ul > li a {
-        padding: 0px 4px;
+        padding: 9px 15px;
 
     }
     .header_section .header_menu {
-        padding: 18px 0px;
+        padding: 45px 0px;
     }
     .header_section .logo {
         position: relative;
         top: 0px;
     }
+    .header_section .logo img{
+        display: none;
+    }
+    .header_section .logo h2{
+        display: block;
+    }
+    .icon{
+        display: block;
+    }
+
+    .header-manu{
+        position: relative;
+    }
+
+    .header_menu input[type="checkbox"]{
+        height: 50px;
+        width: 50px;
+        background: blue;
+        appearance: none;
+        position: absolute;
+        top: 15px;
+        right: 7px;
+        cursor: pointer;
+        opacity: 0;
+        left: 10px;
+    }
+    .header_menu span{
+        font-size: 40px;
+        color: #ddd;
+        position: absolute;
+        left: 20px;
+        top: 15px;
+        pointer-events: none;
+    }
+    .header_menu ul{
+        display: inline-block !important;
+    }
+    .header_menu ul li{
+        display: block !important;
+    }
+
+    .header_menu ul {
+        padding-top: 15px;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 86px;
+        right: 0;
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--primary-color);
+    }
+
+    .header_menu input[type="checkbox"]:checked ~ ul{
+        visibility: visible;
+        opacity: 1;
+        transition: .5s;
+    }
+    .header_section .logo h2 {
+        padding: 17px 0px;
+        font-weight: 600;
+        color: #fff;
+        position: relative;
+        left: 470px;
+    }
+    
+
 }
 @media all and (max-width:1200px){
+
+    
 
 
   /* service section */
@@ -70,9 +140,37 @@
         padding: 23px 25px !important;
         top: -34px !important;
     }
+    .form-contant {
+        padding-top: 45px !important;
+    }
+    .form-contant {
+        padding-top: 40px !important;
+    }
+    .from-contact-box {
+        padding: 17px 22px !important;
+    }
+    .from-contact-box ul li {
+        margin: 2px 0 !important;
+        font-size: 16px !important;
+    }
+    .header_section .logo h2 {
+        padding: 17px 0px;
+        font-weight: 600;
+        color: #fff;
+        position: relative;
+        left: 430px;
+    }
 
 }
 @media all and (max-width:1150px){
+
+    .header_section .logo h2 {
+ 
+        position: relative !important;
+        left: 480px !important;
+    }
+
+    
     .header_section img {
 
         top: 15px;
@@ -96,6 +194,7 @@
         padding: 26px 37px !important;
         top: -51px !important;
     }
+
 
 }
 @media all and (max-width:1080px){
@@ -133,11 +232,51 @@
         font-size: 25px;
         color: #ed3e26;
     }
+    .from-contact-box ul li a {
+        font-size: 15px !important;
+    }
+    .form-left-item input[type="text"] {
+        width: 100% !important;
+    }
+    .form-left-item input[type="email"] {
+        width: 100%;
+    }
+    .header_section .logo h2 {
+      
+        position: relative !important;
+        left: 49px !important;
+    }
+    .header_section .logo h2 {
+        position: relative !important;
+        left: 370px !important;
+    }
 }
 @media all and (max-width:992px){
-    .header_section{
-        display: none;
+
+    
+
+
+    
+
+    /* logo text */
+    .header_section .logo h2 {
+        padding: 17px 0px;
+        font-weight: 600;
+        color: #fff;
+        position: absolute;
+        right: 0px;
+        left: 300%;
     }
+
+    .header_section .header_menu ul > li a {
+        padding: 9px 15px;
+        position: relative;
+        left: 785px;
+    }
+
+
+
+
 
     /* service section */
     .col-md-4 {
@@ -201,6 +340,54 @@
         font-size: 17px !important;
        
     }
+    .form-contant-top {
+        display: contents !important;
+        justify-content: space-around !important; 
+    }
+    .from-contact-box {
+        padding: 50px 22px !important;
+    }
+    .form-left-item {
+        width: 100% !important;
+        padding: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .form-right-item {
+        width: 100% !important;
+        padding: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .form-contant {
+
+        padding: 0px !important;
+    }
+    .form-bottom-contant {
+        display:  flow-root !important;
+        padding: 37px 26px !important;
+    }
+    .service-section-item .service-right-contant p {
+        font-size: 15px !important;
+        padding-top: 15px !important;
+    }
+    .service-item-section .service-all-item .service-item-right p {
+        font-size: 16px !important;
+        padding-top: 30px !important;
+    }
+    .selected-all-item {
+        width: 50% !important;
+        margin-bottom: 0px !important;
+       
+    }
+  
+}
+@media all and (max-width:919px){
+    .header_section .header_menu ul > li a {
+        padding: 9px 15px;
+        position: relative;
+        left: 740px;
+    }
 }
 @media all and (max-width:876px){
     /* about section */
@@ -243,6 +430,43 @@
     }
     .futter-top-section .futter-left-contant a {
         right: -350px !important;
+    }
+    .form-left-item {
+        width: 100% !important;
+        padding: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .form-right-item {
+        width: 100% !important;
+        padding: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .form-contant {
+
+        padding: 0px !important;
+    }
+    .form-bottom-contant {
+        display:  flow-root !important;
+        padding: 37px 26px !important;
+    }
+    .header_section .header_menu ul > li a {
+        padding: 9px 15px;
+        position: relative;
+        left: 686px;
+        font-size: 1.37rem;
+    }
+    .header_section .logo h2 {
+        position: relative !important;
+        left: 300px !important;
+    }
+}
+@media all and (max-width:824px){
+    .header_section .header_menu ul > li a {
+        padding: 9px 15px;
+        position: relative;
+        left: 610px;
     }
 }
 
@@ -320,7 +544,65 @@
         padding: 19px 3px !important;
         top: -50px !important;
     }
+    .form-left-item {
+        width: 100% !important;
+        padding: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .form-right-item {
+        width: 100% !important;
+        padding: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .form-contant {
+
+        padding: 0px !important;
+    }
+    .form-bottom-contant {
+        display:  flow-root !important;
+        padding: 37px 26px !important;
+    }
+    .ourwork-form-item input[type="tell"] {
+        width: 100% !important;
+    }
+    .ourwork-form-item input[type="email"] {
+        width: 100% !important;
+    }
+    .service-item-section .service-all-item {
+        padding: 0px 41px !important;
+    }
+    .service-item-section {
+        padding: 0px 14px !important;
+        padding-top: 70px !important;
+    }
+    .selected-all-item {
+        width: 100% !important;
+        margin-bottom: 0px !important;
+    }
+    .header_section .header_menu ul > li a {
+        padding: 9px 15px;
+        position: relative;
+        left: 686px;
+    }
+    .header_section .header_menu ul > li a {
+        padding: 14px 15px;
+        position: relative;
+        left: 580px;
+    }
+    .header_section .logo h2 {
+        position: relative !important;
+        left: 177px !important;
+    }
    
+}
+@media all and (max-width: 714px){
+    .header_section .header_menu ul > li a {
+        padding: 9px 15px;
+        position: relative;
+        left: 525px;
+    }
 }
  
 @media all and (max-width:668px){
@@ -409,7 +691,47 @@
         margin-top: 0px !important;
     }
  
+    .form-right-item {
+        width: 100% !important;
+        padding: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .form-contant {
 
+        padding: 0px !important;
+    }
+    .form-bottom-contant {
+        display:  flow-root !important;
+        padding: 37px 26px !important;
+    }
+
+    .header_section .header_menu ul > li a {
+        padding: 9px 15px;
+        position: relative;
+        left: 470px;
+    }
+
+    @media all and (max-width:604px){
+        .header_section .header_menu ul > li a {
+            padding: 9px 15px;
+            position: relative;
+            left: 405px;
+        }
+    }
+
+    @media all and (max-width:540px){
+        .header_section .logo h2 {
+            right: 0px;
+            left: 165px;
+            top: 12px;
+        }
+        .header_section .header_menu ul > li a {
+            padding: 9px 15px;
+            position: relative;
+            left: 350px;
+        }
+    }
 }
 @media all and (max-width:576px){
        /* about section */
@@ -482,6 +804,36 @@
     .our-people-section .people-contant p {
         font-size: 17px !important;
 
+    }
+    .form-bottom-contant {
+        display: contents !important;
+        padding: 30px 0 !important;
+    }
+    .form-right-item {
+        width: 100% !important;
+        padding: 30px !important;
+        padding-left: 10px !important;
+    }
+    .form-contant {
+
+        padding: 0px !important;
+    }
+    .form-left-item {
+        width: 100% !important;
+        padding: 30px !important;
+        padding-right: 10px !important;
+    }
+    .service-item-section {
+        padding: 0px 0px !important;
+        padding-top: 70px !important;
+    }
+    .futter-top-section .futter-top-text h2 {
+        font-size: 19px !important;
+    }
+    .futter-top-section .futter-left-contant a {
+        right: -55px !important;
+        top: -44px !important;
+        font-size: 18px !important;
     }
 
 }
@@ -557,23 +909,48 @@
         margin-top: 19px !important;
         top: -44px !important;
     }
+    .from-contact-box ul li {
+        margin: 2px 0 !important;
+        font-size: 12px !important;
+    }
+    .form-left-item {
+        width: 100% !important;
+        padding: 30px !important;
+        padding-right: 10px !important;
+    }
+    .form-left-item input[type="text"] {
+        width: 100% !important;
+    }
+    .form-left-item input[type="email"] {
+        width: 100% !important;
+    }
+    .header_section .header_menu ul > li a {
+        padding: 9px 15px;
+        position: relative;
+        left: 20px;
+        font-size: 1.37rem;
+    }
+    .header_section .header_menu {
+        padding: 0px 0px;
+    }
+    .header_section .header_menu {
+        padding: 5px 0px;
+    }
 }
 @media all and (max-width:376px){
        /* about section*/
        .about-section .about-img a i {
 
-        font-size: 64px;
+        font-size: 64px !important;
 
     }
     .checkout-section .help-content h1 {
-        font-size: 23px;
-        font-weight: 700;
-        color: var(--primary-color);
-        line-height: 35px;
+        font-size: 23px !important;
+        line-height: 35px !important; 
     }
     .banner-section img {
-        width: 100%;
-        height: auto;
+        width: 100% !important;
+        height: auto !important;
     }
     .bigger-section .bigger-contant {
         padding: 49px 9px !important;
@@ -611,6 +988,16 @@
         font-size: 33px !important;
         width: 100% !important;
     }
+    .service-item-section .service-all-item .service-item-right p {
+        font-size: 14px !important;
+        padding-top: 30px !important;
+    }
+    .service-section-item {
+        padding: 100px 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+    }
 
 }
 @media all and (max-width:350px){
@@ -636,6 +1023,13 @@
     .banner-section img {
         width: 100%;
         height: auto;
+    }
+    .service-item-section .service-all-item {
+        padding: 0px 15px !important;
+    }
+    .header_section .logo h2 {
+        position: relative !important;
+        left: 100px !important;
     }
 }
 
