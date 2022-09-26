@@ -25,7 +25,7 @@ text-decoration: none;
 }
 
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 .clear-fix::after {
     content: "";
@@ -762,7 +762,6 @@ body{
 }
 .modal .popup-contant{}
 .modal .popup-contant p{
-    height: 300px;
 }
 
 /* about-section */
@@ -2098,7 +2097,7 @@ body{
 }
 .popup-section .popup-icon  .social-item .futter-icon ul li a {
     padding: 9px 9px;
-    font-size: 23px;
+    font-size: 17px;
     color: var(--primary-color);
     transition: .5s;
 }
