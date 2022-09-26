@@ -1,14 +1,370 @@
 
-@media all and (max-width:1400px){}
-@media all and (max-width:1280px){}
-@media all and (max-width:1200px){}
-@media all and (max-width:1080px){}
-@media all and (max-width:992px){}
-@media all and (max-width:876px){}
-@media all and (max-width:768px){}
-@media all and (max-width:668px){}
-@media all and (max-width:576px){}
-@media all and (max-width:468px){}
-@media all and (max-width:376px){}
-@media all and (max-width:350px){}
+@media all and (max-width:1400px){
+    .header_section .header_menu ul > li a {
+        padding: 0px 4px;
+
+    }
+    .header_section .logo {
+        position: relative;
+        top: 20px;
+    }
+}
+@media all and (max-width:1280px){
+    .header_section .header_menu ul > li a {
+        padding: 0px 4px;
+
+    }
+    .header_section .logo {
+        position: relative;
+        top: 20px;
+    }
+}
+@media all and (max-width:1262px){
+    /* header section */
+    .header_section .header_menu ul > li a {
+        padding: 0px 4px;
+
+    }
+    .header_section .header_menu {
+        padding: 18px 0px;
+    }
+    .header_section .logo {
+        position: relative;
+        top: 0px;
+    }
+}
+@media all and (max-width:1200px){
+
+
+  /* service section */
+    .service-section .service-text h2 {
+        font-size: 19px;
+    }
+
+    .futter-section .futter-bottom-item .futter-contant .futter-icon {
+        float: none;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .futter-section .futter-bottom-item .futter-contant .list-item {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .futter-section .futter-bottom-item .futter-contant .futter-text {
+        float: none;
+        text-align: center;
+    }
+    .futter-section .futter-bottom-item .futter-contant {
+        margin-top: 53px;
+        text-align: center;
+    }
+
+}
+@media all and (max-width:1150px){
+    .header_section img {
+
+        top: 15px;
+
+    }
+}
+@media all and (max-width:1080px){
+      /* service section */
+    .service-section .service-text h2 {
+        font-size: 15px;
+    }
+    .howdo-section .howdo-item p {
+        font-size: 13px;
+        font-weight: 500;
+        color: #2b2d42;
+        padding-bottom: 20px;
+    }
+    .futter-section .futter-bottom-item {
+        border-top: 2px solid #fff;
+        padding-top: 0px;
+    }
+    .project-banner .fix-width {
+        width: 100%;
+        text-align: center;
+    }
+    .project-banner .project-text h4 {
+        width: 100%;
+    }
+}
+@media all and (max-width:992px){
+    .header_section{
+        display: none;
+    }
+
+    /* service section */
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .about-section .about-img img {
+        max-width: 100%;
+        height: 580px;
+        position: relative;
+        z-index: 1;
+        object-fit: cover;
+    }
+    .about-section {
+        padding: 0px;
+    }
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .project-banner .fix-width {
+        width: 100%;
+        text-align: center;
+    }
+    .checkout-section .help-content h1 {
+        font-size: 36px;
+        font-weight: 700;
+        color: var(--primary-color);
+        line-height: 55px;
+    }
+    .project-section .project-item .project-contant {
+        padding: 30px;
+    }
+    .project-section .project-item .project-contant h2 {
+        font-size: 25px;
+
+    }
+    .project-section .project-item .project-contant p {
+        font-size: 17px;
+
+    }
+    .futter-section .futter-menu {
+        float: none;
+        padding-top: 30px;
+    }
+    .futter-section .futter-left-item {
+        padding-bottom: 50px;
+    }
+}
+@media all and (max-width:876px){
+    /* about section */
+    .about-section .about-right-text h1 {
+        font-size: 27px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        line-height: 40px;
+    }
+    .about-section {
+        padding: 0px;
+    }
+    .about-section .about-img img {
+        max-width: 100%;
+        height: 580px;
+        position: relative;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .project-banner .project-text h4 {
+        width: 100%;
+        font-size: 31px;
+        padding: 5px 20px;
+    }
+    .project-section .project-item .project-contant {
+        padding: 27px;
+    }
+    .project-section .project-item .project-contant h2 {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 5px;
+    }
+    .project-section .project-item .project-contant p {
+        font-size: 17px;
+        color: #444;
+    }
+    .futter-section .futter-left-item {
+        padding-bottom: 50px;
+    }
+}
+
+@media all and (max-width:768px){
+      /* service section */
+    .service-section .service-icon img {
+        width: 50%;
+
+    }
+    .service-section .service-icon img {
+        width: 28%;
+
+    }
+    .about-section {
+        padding: 0px;
+    }
+
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .howdo-section .howdo-item p {
+        font-size: 25px;
+     
+    }
+    .project-section .project-item .project-contant {
+
+        padding: 25px;
+
+    }
+    .project-section .project-item .project-contant h2 {
+        font-size: 21px;
+        font-weight: 600;
+        padding-bottom: 5px;
+    }
+    .project-section .project-item .project-contant p {
+        font-size: 15px;
+        color: #444;
+    }
+    .futter-section .futter-menu {
+        float: left;
+        padding-top: 37px;
+    }
+    .futter-section .futter-bottom-item {
+        border-top: 2px solid #fff;
+        margin-top: 295px;
+    }
+    .futter-section .futter-bottom-item .futter-contant {
+        margin-top: 20px;
+    }
+   
+}
+ 
+@media all and (max-width:668px){
+      /* service section */
+      .col-md-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .service-section .service-icon img {
+        width: 20%;
+        display: block;
+        margin: auto;
+    }
+    
+
+    .about-section {
+        padding: 0px;
+    }
+
+    /* about section */
+    .about-section .about-img img {
+        max-width: 100%;
+        height: 100%;
+    }
+    .about-section .about-img img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .project-banner .project-text h4 {
+        width: 100%;
+        font-size: 24px;
+        padding: 5px 20px;
+    }
+    .project-banner .project-text h2 {
+        font-size: 44px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+}
+@media all and (max-width:576px){
+       /* about section */
+       .about-section {
+        padding: 0px 10px;
+    }
+    .about-section .about-right-text h1 {
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        line-height: 40px;
+    }
+    .about-section .about-img a i {
+
+        font-size: 64px;
+
+    }
+    .project-section .project-item .project-contant {
+        padding: 28px;
+
+    }
+    .project-section .project-item .project-contant h2 {
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 5px;
+    }
+
+}
+@media all and (max-width:468px){
+
+
+       .howdo-section .howdo-item p {
+        font-size: 17px;
+    }
+    .project-banner .project-text h4 {
+        width: 100%;
+        font-size: 19px;
+        padding: 5px 20px;
+    }
+    .project-banner .project-text h2 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .project-section .project-item .project-contant h2 {
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 5px;
+    }
+    .project-section .project-item .project-contant {
+
+        padding: 20px;
+    }
+    .project-section .project-item .project-contant p {
+        font-size: 15px;
+        color: #353030;
+    }
+}
+@media all and (max-width:376px){
+       /* about section*/
+       .about-section .about-img a i {
+
+        font-size: 64px;
+
+    }
+    .checkout-section .help-content h1 {
+        font-size: 23px;
+        font-weight: 700;
+        color: var(--primary-color);
+        line-height: 35px;
+    }
+
+}
+@media all and (max-width:350px){
+    /* service section */
+    .service-section .service-icon img {
+        width: 30%;
+        display: block;
+        margin: auto;
+    }
+
+    /* about section */
+    .about-section .about-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .about-section .about-img::after {
+        border: none;
+
+    }
+    .about-section {
+        padding: 0px;
+    }
+   
+}
 
