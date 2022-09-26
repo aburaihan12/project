@@ -66,6 +66,10 @@
         padding: 47px 0px;
         font-style: normal;
     }
+    .pepole-all-item .people-button a {
+        padding: 23px 25px !important;
+        top: -34px !important;
+    }
 
 }
 @media all and (max-width:1150px){
@@ -88,6 +92,11 @@
         font-style: normal;
     }
 
+    .pepole-all-item .people-button a {
+        padding: 26px 37px !important;
+        top: -51px !important;
+    }
+
 }
 @media all and (max-width:1080px){
       /* service section */
@@ -105,11 +114,11 @@
         padding-top: 0px;
     }
     .project-banner .fix-width {
-        width: 100%;
-        text-align: center;
+        width: 100% !important;
+        text-align: center !important;
     }
     .project-banner .project-text h4 {
-        width: 100%;
+        width: 100% !important;
     }
     .banner-section img {
         width: 100%;
@@ -150,8 +159,8 @@
         width: 50%;
     }
     .project-banner .fix-width {
-        width: 100%;
-        text-align: center;
+        width: 100% !important;
+        text-align: center !important;
     }
     .checkout-section .help-content h1 {
         font-size: 36px;
@@ -188,6 +197,10 @@
         right: -446px !important;
 
     }
+    .our-people-section .people-contant p {
+        font-size: 17px !important;
+       
+    }
 }
 @media all and (max-width:876px){
     /* about section */
@@ -209,24 +222,24 @@
     }
 
     .project-banner .project-text h4 {
-        width: 100%;
-        font-size: 31px;
-        padding: 5px 20px;
+        width: 100% !important;
+        font-size: 31px !important;
+        padding: 5px 20px !important;
     }
     .project-section .project-item .project-contant {
-        padding: 27px;
+        padding: 27px !important;
     }
     .project-section .project-item .project-contant h2 {
-        font-size: 20px;
+        font-size: 20px !important;
         font-weight: 600;
-        padding-bottom: 5px;
+        padding-bottom: 5px !important;
     }
     .project-section .project-item .project-contant p {
-        font-size: 17px;
-        color: #444;
+        font-size: 17px !important;
+        color: #444 !important;
     }
     .futter-section .futter-left-item {
-        padding-bottom: 50px;
+        padding-bottom: 50px !important;
     }
     .futter-top-section .futter-left-contant a {
         right: -350px !important;
@@ -299,6 +312,14 @@
        
         padding-top: 0px !important;
     }
+    .our-people-section .people-contant p {
+        font-size: 17px !important;
+       
+    }
+    .pepole-all-item .people-button a {
+        padding: 19px 3px !important;
+        top: -50px !important;
+    }
    
 }
  
@@ -330,18 +351,17 @@
     }
 
     .project-banner .project-text h4 {
-        width: 100%;
-        font-size: 24px;
-        padding: 5px 20px;
+        width: 100% !important;
+        font-size: 24px !important;
+        padding: 5px 20px !important;
     }
     .project-banner .project-text h2 {
-        font-size: 44px;
-        font-weight: 700;
-        color: #fff;
+        font-size: 44px !important;
+        
     }
     .banner-section img {
-        width: 100%;
-        height: auto;
+        width: 100% !important;
+        height: auto !important;
     }
     .about-section .about-item-contant p {
         font-size: 17px;
@@ -447,6 +467,22 @@
     .about-section {
         padding: 0px 0px !important;
     }
+    .pepole-all-item .people-button a {
+        position: absolute;
+        right: 0;
+        padding: 15px 10px !important;
+        margin-top: 19px !important;
+        top: 254px !important;
+    }
+    .pepole-all-item .people-button a {
+        padding: 15px 10px !important;
+        margin-top: 19px !important;
+        top: -60px !important;
+    }
+    .our-people-section .people-contant p {
+        font-size: 17px !important;
+
+    }
 
 }
 @media all and (max-width:468px){
@@ -496,7 +532,31 @@
         padding: 9px 7px !important;
         transition: .5s !important;
     }
+    .ourwork-form-item input[type="tell"] {
+        width: 100% !important;
+    }
+    .ourwork-form-item input[type="email"] {
+        width: 100% !important;
+    }
+    .ourwork-form .our-work-contant h1 {
 
+        font-size: 32px !important;
+
+    }
+    .ourwork-form-item textarea {
+
+        height: 100px !important;
+      
+    }
+    .our-people-section .people-contant p {
+        font-size: 16px !important;
+    }
+
+    .pepole-all-item .people-button a {
+        padding: 15px 10px !important;
+        margin-top: 19px !important;
+        top: -44px !important;
+    }
 }
 @media all and (max-width:376px){
        /* about section*/
@@ -538,6 +598,18 @@
     .bigger-section .bigger-contant p {
         font-size: 15px !important;
      
+    }
+    .our-people-section .people-contant p {
+        font-size: 16px !important;
+    }
+    .pepole-all-item .people-button a {
+
+        margin-top: 19px !important;
+        top: -50px !important;
+    }
+    .people-counter-section .counter-text h2 {
+        font-size: 33px !important;
+        width: 100% !important;
     }
 
 }
