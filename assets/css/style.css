@@ -70,7 +70,7 @@ body , html{
 }
 
 /* preloder */
-#pre_loader{
+/* #pre_loader{
     background-color: #111;
     position: fixed;
     width: 100%;
@@ -80,7 +80,7 @@ body , html{
     background-repeat: no-repeat;
     background-position: center;
     transition: 5s;
-}
+} */
 
 .header_section .logo{
     position: relative;

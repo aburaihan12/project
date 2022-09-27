@@ -66,6 +66,7 @@
         top: 15px;
         pointer-events: none;
     }
+ 
     .header_menu ul{
         display: inline-block !important;
     }
@@ -844,6 +845,7 @@
     .header_section .header_menu {
         padding: 5px 0px !important;
     }
+    
 
 }
 @media all and (max-width:468px){
@@ -948,6 +950,17 @@
     .news-single-page .news-section-item .news-contant h1 {
         font-size: 30px !important;
 
+    }
+    .header_section .logo h2 {
+        position: relative !important;
+        left: 20px !important;
+    }
+    .header_menu input[type="checkbox"] {
+        left: 315px !important;
+    }
+    .header_menu span {
+        left: 315px !important;
+        top: 16px !important;
     }
 }
 @media all and (max-width:376px){
@@ -1064,6 +1077,41 @@
         font-size: 10px !important;
         color: #444 !important;
     }
+    .service-item-section .service-all-item .service-item-left h2 {
+        padding-top: 30px !important;
+        padding-bottom: 5px !important; 
+    }
+
+    .service-item-section .service-all-item .service-item-right {
+        border-bottom: 0;
+        /* height: 100%; */
+        border-top: 1px solid #ddd !important;
+    }
+    .service-item-section .service-all-item .service-item-left {
+        border-bottom: 1px solid #ddd;
+        border-top: 0 !important;
+    }
+    .service-section-item {
+        padding-top: 50px !important;
+        padding: 0px 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        padding-top: 50px !important;
+    }
+    .header_section .logo h2 {
+        position: relative !important;
+        left: 20px !important;
+    }
+    .header_menu input[type="checkbox"] {
+   
+        left: 285px !important;
+    }
+    .header_menu span {
+
+        left: 285px !important;
+        top: 16px !important;
+
+    }
 
 }
 @media all and (max-width:350px){
@@ -1141,6 +1189,20 @@
     .project-section .project-item .project-contant p {
         font-size: 10px !important;
         color: #444 !important;
+    }
+    .header_section .logo h2 {
+        position: relative !important;
+        left: 20px !important;
+    }
+    .header_menu input[type="checkbox"] {
+   
+        left: 280px !important;
+    }
+    .header_menu span {
+
+        left: 280px !important;
+        top: 16px !important;
+
     }
 }
 
